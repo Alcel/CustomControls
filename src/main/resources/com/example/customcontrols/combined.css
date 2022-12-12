@@ -1,0 +1,17 @@
+.combined-control > .text-input,
+.combined-control > .text-input:focused {
+    -fx-background-color: linear-gradient(to bottom, -fx-text-box-border,-fx-text-box-border),
+    linear-gradient(from 0px 0px to 0px 5px, -fx-control-inner-background, -fx-control-inner-background);
+    -fx-background-insets: 0, 1 0 1 1;
+    -fx-background-radius: 3 0 0 3, 2 0 0 2;
+    -fx-pref-width: 120px;
+}
+.combined-control > .button {
+    -fx-background-radius: 0 3 3 0, 0 3 3 0, 0 2 2 0, 0 1 1 0;
+    -fx-pref-width: 36px;
+    -fx-min-width: 36px;
+}
+.combined-control > .button:focused {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color, -fx-body-color;
+    -fx-background-insets: 0, 1, 2, 2;
+}
