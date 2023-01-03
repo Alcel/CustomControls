@@ -9,11 +9,14 @@
 
 <?import com.example.customcontrols.CombinedControl?>
 <?import com.example.customcontrols.CustomControl?>
+<?import com.example.customcontrols.RegionControl?>
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.customcontrols.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
+    <RegionControl></RegionControl>
    <HBox prefHeight="100.0" prefWidth="200.0" />
+
     <CombinedControl></CombinedControl>
     <CustomControl></CustomControl>
     <Label fx:id="welcomeText" />

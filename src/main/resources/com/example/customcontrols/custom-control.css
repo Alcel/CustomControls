@@ -15,9 +15,6 @@
     -color 100%);
 }
 
-.custom-control {
-    -color: red;
-}
 
 .custom-control .frame {
     -fx-background-color : linear-gradient(from 14% 14% to 84% 84%,
